@@ -17,7 +17,7 @@ The project follows **best Python development practices**, covering:
 
 ## 📂 Repository Structure  
 ```
-📦 monkey-classification  
+📦 Monkeys_Project  
 ├── 📄 monkey_classif.py      # Runs classification  
 ├── 📄 monkey_visualize.py    # Visualization logic  
 ├── 📄 monkey_model.py        # Monkey class logic  
@@ -25,26 +25,23 @@ The project follows **best Python development practices**, covering:
 ├── 📄 tests.py               # Unit tests  
 ├── 📄 monkeys.csv            # Dataset (~3K records)  
 ├── 📄 README.md              # Documentation  
-```
+
 
 ## 📦 Installation  
 1️⃣ Clone the repository  
-
-git clone https://github.com/your-username/monkey-classification.git
-cd monkey-classification
-
-2️⃣ Install dependencies  
-
-pip install -r requirements.txt
- 
+git clone https://github.com/zaid04/Monkeys_Project.git
+cd Monkeys_Project
+```  
+2️⃣ Install dependencies manually using `pip`. For example:  
+```bash
+pip install pandas scikit-learn matplotlib pytest
+```  
 
 ## 🚀 Usage  
 Run the classification script:  
 
 python monkey_classif.py
-
 Run the tests:  
-
 pytest tests.py
 
 
